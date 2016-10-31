@@ -3,7 +3,7 @@ class EventsController < ApplicationController
 
   # GET /events
   def index
-    @events = Event.all
+    @events = Event.all.group_by { |m| m.date.beginning_of_day }
 
     render json: @events
   end
