@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  date: 2016-10-30 22:54:17
+  date: 2016-10-30 23:07:46
   title: MyString
   location: one
   description: MyText
 
 two:
-  date: 2016-10-30 22:54:17
+  date: 2016-10-30 23:07:46
   title: MyString
   location: two
   description: MyText
